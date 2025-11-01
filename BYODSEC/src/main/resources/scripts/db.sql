@@ -1,0 +1,27 @@
+USE pai2;
+
+-- Cleanup
+DROP TABLE IF EXISTS sessions;
+DROP TABLE IF EXISTS users;
+-- END Cleanup
+
+-- DDL
+CREATE TABLE users (
+    userId UUID NOT NULL PRIMARY KEY,
+    userName VARCHAR(64) NOT NULL UNIQUE,
+    password VARCHAR(256) NOT NULL
+);
+
+CREATE TABLE sessions (
+    sessionId UUID NOT NULL PRIMARY KEY,
+    userId UUID NOT NULL UNIQUE,
+    createdAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    expiresAt TIMESTAMP AS (createdAt + INTERVAL 15 MINUTE) STORED,
+    FOREIGN KEY (userId) REFERENCES users(userId) ON DELETE CASCADE
+);
+
+CREATE EVENT IF NOT EXISTS clear_expired_sessions
+ON SCHEDULE EVERY 1 MINUTE
+DO
+DELETE FROM sessions WHERE expiresAt <= NOW();
+-- END DDL

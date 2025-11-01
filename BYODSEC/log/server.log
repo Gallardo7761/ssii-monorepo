@@ -1,0 +1,575 @@
+2025-10-20 03:41:45 [main] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:58152
+2025-10-20 03:41:45 [main] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 03:41:50 [main] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:35314
+2025-10-20 03:41:50 [main] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando SEND_MESSAGE de smt4497 a Servidor | hola
+2025-10-20 03:42:15 [main] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:45928
+2025-10-20 03:42:15 [main] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para cb1465ad-6d6d-4784-a2e9-9670a60e778a
+2025-10-20 03:42:15 [main] ERROR n.miarma.byodsec.server.RemoteSocket - Fallo procesando solicitud
+jakarta.persistence.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:114)
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:291)
+	at net.miarma.byodsec.common.db.dao.SessionDAO.getByUserId(SessionDAO.java:10)
+	at net.miarma.byodsec.server.RemoteSocket.main(RemoteSocket.java:126)
+Caused by: org.hibernate.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:305)
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:288)
+	... 2 common frames omitted
+2025-10-20 18:03:22 [pool-2-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:36678
+2025-10-20 18:03:22 [pool-2-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 18:03:33 [pool-3-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:50342
+2025-10-20 18:03:33 [pool-3-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para alvgulveg
+2025-10-20 18:03:37 [pool-4-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:60208
+2025-10-20 18:03:37 [pool-4-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando SEND_MESSAGE de smt4497 a Servidor | illo que
+2025-10-20 18:03:40 [pool-5-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:60218
+2025-10-20 18:03:40 [pool-5-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando SEND_MESSAGE de alvgulveg a Servidor | yoyoyo
+2025-10-20 18:04:04 [pool-6-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:54898
+2025-10-20 18:04:04 [pool-6-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para ricolinad
+2025-10-20 18:04:15 [pool-7-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:35428
+2025-10-20 18:04:15 [pool-7-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando SEND_MESSAGE de ricolinad a Servidor | we are number one
+2025-10-20 18:04:33 [pool-8-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:37304
+2025-10-20 18:04:33 [pool-8-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para cb1465ad-6d6d-4784-a2e9-9670a60e778a
+2025-10-20 18:04:35 [pool-9-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:59664
+2025-10-20 18:04:35 [pool-9-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para b176f04e-6b8a-4447-948a-af290d3ebb82
+2025-10-20 18:04:35 [pool-10-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:59676
+2025-10-20 18:04:35 [pool-10-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para 85218286-76fc-46af-b3c0-71bb09896531
+2025-10-20 18:05:47 [pool-11-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:47858
+2025-10-20 18:05:47 [pool-11-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 18:05:51 [pool-12-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:47864
+2025-10-20 18:05:51 [pool-12-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para cb1465ad-6d6d-4784-a2e9-9670a60e778a
+2025-10-20 18:09:20 [pool-2-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:55666
+2025-10-20 18:09:20 [pool-2-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 18:09:27 [pool-3-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:41602
+2025-10-20 18:09:27 [pool-3-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para cb1465ad-6d6d-4784-a2e9-9670a60e778a
+2025-10-20 18:10:12 [pool-4-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:46782
+2025-10-20 18:10:12 [pool-4-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 18:10:26 [pool-5-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:51828
+2025-10-20 18:10:26 [pool-5-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para cb1465ad-6d6d-4784-a2e9-9670a60e778a
+2025-10-20 18:12:48 [pool-6-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:34644
+2025-10-20 18:12:48 [pool-6-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando REGISTER para psancas
+2025-10-20 18:12:54 [pool-7-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:34658
+2025-10-20 18:12:54 [pool-7-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:12:57 [pool-8-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:56042
+2025-10-20 18:12:57 [pool-8-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para 585d98f3-5951-40d6-8d35-f32b65d9d43e
+2025-10-20 18:14:48 [pool-9-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:39960
+2025-10-20 18:14:48 [pool-9-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 18:14:56 [pool-10-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:60056
+2025-10-20 18:14:57 [pool-10-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para alvgulveg
+2025-10-20 18:15:03 [pool-11-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:60068
+2025-10-20 18:15:03 [pool-11-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:15:07 [pool-12-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:34964
+2025-10-20 18:15:07 [pool-12-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando SEND_MESSAGE de smt4497 a Servidor | dsadasdas
+2025-10-20 18:15:09 [pool-13-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:34978
+2025-10-20 18:15:09 [pool-13-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando SEND_MESSAGE de alvgulveg a Servidor | sfdsgefrgfr
+2025-10-20 18:15:14 [pool-14-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:34986
+2025-10-20 18:15:14 [pool-14-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando SEND_MESSAGE de psancas a Servidor | odio a la derecha
+2025-10-20 18:16:28 [pool-15-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:54852
+2025-10-20 18:16:28 [pool-15-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando SEND_MESSAGE de psancas a Servidor | dictadura
+2025-10-20 18:17:38 [pool-16-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:43520
+2025-10-20 18:17:38 [pool-16-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para ricolinad
+2025-10-20 18:17:43 [pool-17-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:43528
+2025-10-20 18:17:43 [pool-17-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando SEND_MESSAGE de ricolinad a Servidor | we are number one
+2025-10-20 18:18:15 [pool-18-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:60346
+2025-10-20 18:18:16 [pool-18-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 18:20:10 [pool-19-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:34420
+2025-10-20 18:20:10 [pool-19-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 18:20:23 [pool-20-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:45642
+2025-10-20 18:20:23 [pool-20-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 18:20:45 [pool-21-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:40882
+2025-10-20 18:20:45 [pool-21-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para cb1465ad-6d6d-4784-a2e9-9670a60e778a
+2025-10-20 18:20:55 [pool-22-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:35040
+2025-10-20 18:20:55 [pool-22-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para cb1465ad-6d6d-4784-a2e9-9670a60e778a
+2025-10-20 18:24:49 [pool-23-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:52902
+2025-10-20 18:24:49 [pool-23-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 18:25:08 [pool-24-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:56154
+2025-10-20 18:25:08 [pool-24-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 18:25:09 [pool-24-thread-1] ERROR n.miarma.byodsec.server.RemoteSocket - Error while committing the transaction [could not execute statement [(conn=195) Duplicate entry 'cb1465ad-6d6d-4784-a2e9-9670a60e778a' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+jakarta.persistence.RollbackException: Error while committing the transaction [could not execute statement [(conn=195) Duplicate entry 'cb1465ad-6d6d-4784-a2e9-9670a60e778a' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:70)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:93)
+	at net.miarma.byodsec.server.ClientHandler.run(ClientHandler.java:90)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [(conn=195) Duplicate entry 'cb1465ad-6d6d-4784-a2e9-9670a60e778a' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]
+	at org.hibernate.dialect.MariaDBDialect.lambda$buildSQLExceptionConversionDelegate$1(MariaDBDialect.java:379)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:193)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:148)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:191)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:129)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:101)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:113)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:646)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:513)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:378)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:140)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1443)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:488)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2321)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2029)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:394)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:167)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:249)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:243)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:90)
+	... 4 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=195) Duplicate entry 'cb1465ad-6d6d-4784-a2e9-9670a60e778a' for key 'userId'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:301)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:386)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1376)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1315)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1234)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1158)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:91)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:345)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:322)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+	... 26 common frames omitted
+2025-10-20 18:25:20 [pool-25-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:47508
+2025-10-20 18:25:20 [pool-25-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 18:25:20 [pool-25-thread-1] ERROR n.miarma.byodsec.server.RemoteSocket - Error while committing the transaction [could not execute statement [(conn=195) Duplicate entry 'cb1465ad-6d6d-4784-a2e9-9670a60e778a' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+jakarta.persistence.RollbackException: Error while committing the transaction [could not execute statement [(conn=195) Duplicate entry 'cb1465ad-6d6d-4784-a2e9-9670a60e778a' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:70)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:93)
+	at net.miarma.byodsec.server.ClientHandler.run(ClientHandler.java:90)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [(conn=195) Duplicate entry 'cb1465ad-6d6d-4784-a2e9-9670a60e778a' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]
+	at org.hibernate.dialect.MariaDBDialect.lambda$buildSQLExceptionConversionDelegate$1(MariaDBDialect.java:379)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:193)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:148)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:191)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:129)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:101)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:113)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:646)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:513)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:378)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:140)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1443)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:488)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2321)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2029)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:394)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:167)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:249)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:243)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:90)
+	... 4 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=195) Duplicate entry 'cb1465ad-6d6d-4784-a2e9-9670a60e778a' for key 'userId'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:301)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:386)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1376)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1315)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1234)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1158)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:91)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:345)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:322)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+	... 26 common frames omitted
+2025-10-20 18:25:22 [pool-26-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:47518
+2025-10-20 18:25:22 [pool-26-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 18:25:23 [pool-26-thread-1] ERROR n.miarma.byodsec.server.RemoteSocket - Error while committing the transaction [could not execute statement [(conn=195) Duplicate entry 'cb1465ad-6d6d-4784-a2e9-9670a60e778a' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+jakarta.persistence.RollbackException: Error while committing the transaction [could not execute statement [(conn=195) Duplicate entry 'cb1465ad-6d6d-4784-a2e9-9670a60e778a' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:70)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:93)
+	at net.miarma.byodsec.server.ClientHandler.run(ClientHandler.java:90)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [(conn=195) Duplicate entry 'cb1465ad-6d6d-4784-a2e9-9670a60e778a' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]
+	at org.hibernate.dialect.MariaDBDialect.lambda$buildSQLExceptionConversionDelegate$1(MariaDBDialect.java:379)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:193)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:148)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:191)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:129)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:101)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:113)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:646)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:513)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:378)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:140)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1443)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:488)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2321)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2029)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:394)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:167)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:249)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:243)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:90)
+	... 4 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=195) Duplicate entry 'cb1465ad-6d6d-4784-a2e9-9670a60e778a' for key 'userId'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:301)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:386)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1376)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1315)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1234)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1158)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:91)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:345)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:322)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+	... 26 common frames omitted
+2025-10-20 18:25:47 [pool-27-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:36890
+2025-10-20 18:25:47 [pool-27-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para cb1465ad-6d6d-4784-a2e9-9670a60e778a
+2025-10-20 18:32:42 [pool-28-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:47312
+2025-10-20 18:32:42 [pool-28-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:32:48 [pool-29-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:39420
+2025-10-20 18:32:48 [pool-29-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:32:49 [pool-29-thread-1] ERROR n.miarma.byodsec.server.RemoteSocket - Error while committing the transaction [could not execute statement [(conn=195) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+jakarta.persistence.RollbackException: Error while committing the transaction [could not execute statement [(conn=195) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:70)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:93)
+	at net.miarma.byodsec.client.ClientHandler.run(ClientHandler.java:90)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [(conn=195) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]
+	at org.hibernate.dialect.MariaDBDialect.lambda$buildSQLExceptionConversionDelegate$1(MariaDBDialect.java:379)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:193)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:148)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:191)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:129)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:101)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:113)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:646)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:513)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:378)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:140)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1443)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:488)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2321)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2029)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:394)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:167)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:249)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:243)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:90)
+	... 4 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=195) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:301)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:386)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1376)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1315)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1234)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1158)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:91)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:345)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:322)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+	... 26 common frames omitted
+2025-10-20 18:32:55 [pool-30-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:47214
+2025-10-20 18:32:55 [pool-30-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para 585d98f3-5951-40d6-8d35-f32b65d9d43e
+2025-10-20 18:35:05 [pool-31-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:36694
+2025-10-20 18:35:05 [pool-31-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:35:06 [pool-32-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:36710
+2025-10-20 18:35:07 [pool-32-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:35:07 [pool-32-thread-1] ERROR n.miarma.byodsec.server.RemoteSocket - Error while committing the transaction [could not execute statement [(conn=195) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+jakarta.persistence.RollbackException: Error while committing the transaction [could not execute statement [(conn=195) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:70)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:93)
+	at net.miarma.byodsec.client.ClientHandler.run(ClientHandler.java:90)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [(conn=195) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]
+	at org.hibernate.dialect.MariaDBDialect.lambda$buildSQLExceptionConversionDelegate$1(MariaDBDialect.java:379)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:193)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:148)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:191)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:129)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:101)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:113)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:646)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:513)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:378)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:140)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1443)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:488)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2321)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2029)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:394)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:167)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:249)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:243)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:90)
+	... 4 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=195) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:301)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:386)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1376)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1315)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1234)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1158)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:91)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:345)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:322)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+	... 26 common frames omitted
+2025-10-20 18:35:22 [pool-33-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:45686
+2025-10-20 18:35:22 [pool-33-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para 585d98f3-5951-40d6-8d35-f32b65d9d43e
+2025-10-20 18:35:24 [pool-34-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:45688
+2025-10-20 18:35:24 [pool-34-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:35:26 [pool-35-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:45378
+2025-10-20 18:35:26 [pool-35-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para 585d98f3-5951-40d6-8d35-f32b65d9d43e
+2025-10-20 18:37:27 [pool-2-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:39072
+2025-10-20 18:37:27 [pool-2-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:37:31 [pool-3-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:39080
+2025-10-20 18:37:31 [pool-3-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:37:31 [pool-3-thread-1] ERROR n.miarma.byodsec.server.RemoteSocket - Error while committing the transaction [could not execute statement [(conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+jakarta.persistence.RollbackException: Error while committing the transaction [could not execute statement [(conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:70)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:93)
+	at net.miarma.byodsec.server.ClientHandler.run(ClientHandler.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [(conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]
+	at org.hibernate.dialect.MariaDBDialect.lambda$buildSQLExceptionConversionDelegate$1(MariaDBDialect.java:379)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:193)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:148)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:191)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:129)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:101)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:113)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:646)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:513)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:378)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:140)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1443)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:488)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2321)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2029)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:394)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:167)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:249)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:243)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:90)
+	... 4 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:301)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:386)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1376)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1315)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1234)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1158)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:91)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:345)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:322)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+	... 26 common frames omitted
+2025-10-20 18:37:39 [pool-4-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:42422
+2025-10-20 18:37:39 [pool-4-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:37:40 [pool-4-thread-1] ERROR n.miarma.byodsec.server.RemoteSocket - Error while committing the transaction [could not execute statement [(conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+jakarta.persistence.RollbackException: Error while committing the transaction [could not execute statement [(conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:70)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:93)
+	at net.miarma.byodsec.server.ClientHandler.run(ClientHandler.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [(conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]
+	at org.hibernate.dialect.MariaDBDialect.lambda$buildSQLExceptionConversionDelegate$1(MariaDBDialect.java:379)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:193)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:148)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:191)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:129)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:101)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:113)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:646)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:513)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:378)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:140)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1443)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:488)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2321)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2029)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:394)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:167)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:249)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:243)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:90)
+	... 4 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:301)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:386)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1376)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1315)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1234)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1158)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:91)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:345)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:322)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+	... 26 common frames omitted
+2025-10-20 18:37:44 [pool-5-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:42426
+2025-10-20 18:37:44 [pool-5-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para 585d98f3-5951-40d6-8d35-f32b65d9d43e
+2025-10-20 18:39:07 [pool-6-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:42476
+2025-10-20 18:39:07 [pool-6-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:39:20 [pool-7-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:52194
+2025-10-20 18:39:20 [pool-7-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:39:21 [pool-7-thread-1] ERROR n.miarma.byodsec.server.RemoteSocket - Error while committing the transaction [could not execute statement [(conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+jakarta.persistence.RollbackException: Error while committing the transaction [could not execute statement [(conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:70)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:93)
+	at net.miarma.byodsec.server.ClientHandler.run(ClientHandler.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [(conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]
+	at org.hibernate.dialect.MariaDBDialect.lambda$buildSQLExceptionConversionDelegate$1(MariaDBDialect.java:379)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:193)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:148)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:191)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:129)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:101)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:113)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:646)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:513)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:378)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:140)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1443)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:488)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2321)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2029)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:394)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:167)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:249)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:243)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:90)
+	... 4 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:301)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:386)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1376)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1315)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1234)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1158)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:91)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:345)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:322)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+	... 26 common frames omitted
+2025-10-20 18:41:14 [pool-8-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:49238
+2025-10-20 18:41:14 [pool-8-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:41:24 [pool-9-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:49240
+2025-10-20 18:41:24 [pool-9-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 18:41:25 [pool-9-thread-1] ERROR n.miarma.byodsec.server.RemoteSocket - Error while committing the transaction [could not execute statement [(conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+jakarta.persistence.RollbackException: Error while committing the transaction [could not execute statement [(conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]]
+	at org.hibernate.internal.ExceptionConverterImpl.convertCommitException(ExceptionConverterImpl.java:70)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:93)
+	at net.miarma.byodsec.server.ClientHandler.run(ClientHandler.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [(conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'] [insert into sessions (userId,sessionId) values (?,?)]
+	at org.hibernate.dialect.MariaDBDialect.lambda$buildSQLExceptionConversionDelegate$1(MariaDBDialect.java:379)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:193)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:148)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:191)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:129)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:101)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:113)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:646)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:513)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:378)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:140)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1443)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:488)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2321)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2029)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:394)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:167)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:249)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:243)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:90)
+	... 4 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=241) Duplicate entry '585d98f3-5951-40d6-8d35-f32b65d9d43e' for key 'userId'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:301)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:386)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1376)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1315)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1234)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1158)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:91)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:345)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:322)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+	... 26 common frames omitted
+2025-10-20 22:42:25 [pool-2-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:53230
+2025-10-20 22:42:25 [pool-2-thread-1] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 22:42:35 [pool-2-thread-2] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:40972
+2025-10-20 22:42:35 [pool-2-thread-2] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-20 22:43:17 [pool-2-thread-3] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:34616
+2025-10-20 22:43:17 [pool-2-thread-3] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGIN para psancas
+2025-10-20 22:43:20 [pool-2-thread-4] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:34618
+2025-10-20 22:43:20 [pool-2-thread-4] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando SEND_MESSAGE de smt4497 a Servidor | hola
+2025-10-20 22:43:23 [pool-2-thread-5] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:41190
+2025-10-20 22:43:23 [pool-2-thread-5] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para 585d98f3-5951-40d6-8d35-f32b65d9d43e
+2025-10-20 22:43:26 [pool-2-thread-6] INFO  n.miarma.byodsec.server.RemoteSocket - Nueva conexión desde /127.0.0.1:41194
+2025-10-20 22:43:26 [pool-2-thread-6] INFO  n.miarma.byodsec.server.RemoteSocket - Procesando LOGOUT para cb1465ad-6d6d-4784-a2e9-9670a60e778a

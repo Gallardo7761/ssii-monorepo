@@ -1,0 +1,54 @@
+2025-10-20 03:41:45 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-20 03:41:50 INFO  n.miarma.byodsec.client.ClientSocket - Mensaje enviado: smt4497 -> Servidor
+2025-10-20 18:03:23 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-20 18:03:34 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'alvgulveg' ha iniciado sesión correctamente.
+2025-10-20 18:03:38 INFO  n.miarma.byodsec.client.ClientSocket - Mensaje enviado: smt4497 -> Servidor
+2025-10-20 18:03:40 INFO  n.miarma.byodsec.client.ClientSocket - Mensaje enviado: alvgulveg -> Servidor
+2025-10-20 18:04:04 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'ricolinad' ha iniciado sesión correctamente.
+2025-10-20 18:04:15 INFO  n.miarma.byodsec.client.ClientSocket - Mensaje enviado: ricolinad -> Servidor
+2025-10-20 18:04:36 INFO  n.miarma.byodsec.client.ClientSocket - Usuario 'ricolinad' ha cerrado sesión correctamente.
+2025-10-20 18:05:48 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-20 18:09:21 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-20 18:10:12 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-20 18:12:49 INFO  n.miarma.byodsec.client.ClientSocket - Usuario 'psancas' registrado correctamente.
+2025-10-20 18:12:54 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'psancas' ha iniciado sesión correctamente.
+2025-10-20 18:12:57 INFO  n.miarma.byodsec.client.ClientSocket - Usuario 'psancas' ha cerrado sesión correctamente.
+2025-10-20 18:14:49 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-20 18:14:57 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'alvgulveg' ha iniciado sesión correctamente.
+2025-10-20 18:15:04 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'psancas' ha iniciado sesión correctamente.
+2025-10-20 18:15:08 INFO  n.miarma.byodsec.client.ClientSocket - Mensaje enviado: smt4497 -> Servidor
+2025-10-20 18:15:09 INFO  n.miarma.byodsec.client.ClientSocket - Mensaje enviado: alvgulveg -> Servidor
+2025-10-20 18:15:14 INFO  n.miarma.byodsec.client.ClientSocket - Mensaje enviado: psancas -> Servidor
+2025-10-20 18:16:28 INFO  n.miarma.byodsec.client.ClientSocket - Mensaje enviado: psancas -> Servidor
+2025-10-20 18:17:38 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'ricolinad' ha iniciado sesión correctamente.
+2025-10-20 18:17:43 INFO  n.miarma.byodsec.client.ClientSocket - Mensaje enviado: ricolinad -> Servidor
+2025-10-20 18:18:16 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-20 18:20:11 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-20 18:20:24 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-20 18:24:49 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-20 18:25:09 WARN  n.miarma.byodsec.client.ClientSocket - Intento de login fallido para 'smt4497': Ha ocurrido un error inesperado.
+2025-10-20 18:25:20 WARN  n.miarma.byodsec.client.ClientSocket - Intento de login fallido para 'smt4497': Ha ocurrido un error inesperado.
+2025-10-20 18:25:23 WARN  n.miarma.byodsec.client.ClientSocket - Intento de login fallido para 'smt4497': Ha ocurrido un error inesperado.
+2025-10-20 18:25:47 INFO  n.miarma.byodsec.client.ClientSocket - Usuario 'smt4497' ha cerrado sesión correctamente.
+2025-10-20 18:32:42 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'psancas' ha iniciado sesión correctamente.
+2025-10-20 18:32:49 WARN  n.miarma.byodsec.client.ClientSocket - Intento de login fallido para 'psancas': Ha ocurrido un error inesperado.
+2025-10-20 18:32:56 INFO  n.miarma.byodsec.client.ClientSocket - Usuario 'psancas' ha cerrado sesión correctamente.
+2025-10-20 18:35:05 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'psancas' ha iniciado sesión correctamente.
+2025-10-20 18:35:07 WARN  n.miarma.byodsec.client.ClientSocket - Intento de login fallido para 'psancas': Ha ocurrido un error inesperado.
+2025-10-20 18:35:22 INFO  n.miarma.byodsec.client.ClientSocket - Usuario 'psancas' ha cerrado sesión correctamente.
+2025-10-20 18:35:24 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'psancas' ha iniciado sesión correctamente.
+2025-10-20 18:35:26 INFO  n.miarma.byodsec.client.ClientSocket - Usuario 'psancas' ha cerrado sesión correctamente.
+2025-10-20 18:37:28 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'psancas' ha iniciado sesión correctamente.
+2025-10-20 18:37:31 WARN  n.miarma.byodsec.client.ClientSocket - Intento de login fallido para 'psancas': Ha ocurrido un error inesperado.
+2025-10-20 18:37:40 WARN  n.miarma.byodsec.client.ClientSocket - Intento de login fallido para 'psancas': Ha ocurrido un error inesperado.
+2025-10-20 18:37:44 INFO  n.miarma.byodsec.client.ClientSocket - Usuario 'psancas' ha cerrado sesión correctamente.
+2025-10-20 18:39:08 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'psancas' ha iniciado sesión correctamente.
+2025-10-20 18:39:21 WARN  n.miarma.byodsec.client.ClientSocket - Intento de login fallido para 'psancas': Ha ocurrido un error inesperado.
+2025-10-20 18:41:15 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'psancas' ha iniciado sesión correctamente.
+2025-10-20 18:41:25 WARN  n.miarma.byodsec.client.ClientSocket - Intento de login fallido para 'psancas': Ha ocurrido un error inesperado.
+2025-10-20 22:42:26 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-20 22:42:36 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'smt4497' ya tiene una sesión activa.
+2025-10-20 22:43:17 INFO  n.miarma.byodsec.client.ClientSocket - El usuario 'psancas' ha iniciado sesión correctamente.
+2025-10-20 22:43:20 INFO  n.miarma.byodsec.client.ClientSocket - Mensaje enviado: smt4497 -> Servidor
+2025-10-20 22:43:24 INFO  n.miarma.byodsec.client.ClientSocket - Usuario 'psancas' ha cerrado sesión correctamente.
+2025-10-20 22:43:26 INFO  n.miarma.byodsec.client.ClientSocket - Usuario 'smt4497' ha cerrado sesión correctamente.

@@ -1,0 +1,15 @@
+2025-10-06 19:44:03 INFO  n.m.integridos.client.ClientSocket - El usuario 'alvgulveg' ha iniciado sesión correctamente.
+2025-10-06 19:44:12 INFO  n.m.integridos.client.ClientSocket - Transacción enviada: alvgulveg -> smt4497 | 50.0€
+2025-10-06 19:44:13 INFO  n.m.integridos.client.ClientSocket - Usuario 'alvgulveg' ha cerrado sesión correctamente.
+2025-10-06 19:48:16 WARN  n.m.integridos.client.ClientSocket - Intento de login fallido para 'noexiste': El usuario no existe.
+2025-10-06 19:48:53 INFO  n.m.integridos.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-06 19:49:14 INFO  n.m.integridos.client.ClientSocket - Transacción enviada: smt4497 -> alvgulveg | 50.0€
+2025-10-06 19:49:14 INFO  n.m.integridos.client.ClientSocket - Usuario 'smt4497' ha cerrado sesión correctamente.
+2025-10-06 19:49:35 WARN  n.m.integridos.client.ClientSocket - Intento de login fallido para 'smt4497': Contraseña incorrecta.
+2025-10-06 19:57:25 INFO  n.m.integridos.client.ClientSocket - El usuario 'smt4497' ha iniciado sesión correctamente.
+2025-10-06 19:57:31 WARN  n.m.integridos.client.ClientSocket - Error enviando transacción de smt4497 a alvgulveg: Cantidad no válida.
+2025-10-06 19:57:38 WARN  n.m.integridos.client.ClientSocket - Error enviando transacción de smt4497 a alvgulveg: Cantidad no válida.
+2025-10-06 19:57:42 WARN  n.m.integridos.client.ClientSocket - Error enviando transacción de smt4497 a noexiste: El destinatario no existe
+2025-10-06 19:57:52 INFO  n.m.integridos.client.ClientSocket - Usuario 'smt4497' ha cerrado sesión correctamente.
+2025-10-06 19:57:58 WARN  n.m.integridos.client.ClientSocket - Intento de login fallido para 'alvgulveg': Contraseña incorrecta.
+2025-10-06 19:58:04 WARN  n.m.integridos.client.ClientSocket - Intento de login fallido para 'noexiste': El usuario no existe.

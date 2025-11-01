@@ -1,0 +1,176 @@
+JFDML JFormDesigner: "8.2.4.0.393" Java: "21.0.8" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.CardLayout ) {
+			"hgap": 6
+			"vgap": 6
+		} ) {
+			name: "this"
+			"$sizePolicy": 1
+			"resizable": false
+			"defaultCloseOperation": 3
+			addEvent( new FormEvent( "java.awt.event.WindowListener", "windowClosing", "thisWindowClosing", true ) )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "hidemode 3,gapy 12"
+				"$columnConstraints": "[grow,fill]"
+				"$rowConstraints": "[]para[fill][fill]para[][grow,fill]"
+			} ) {
+				name: "loginPanel"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "logo"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/logo.png" )
+					"maximumSize": new java.awt.Dimension( 256, 256 )
+					"minimumSize": new java.awt.Dimension( 256, 256 )
+					"preferredSize": new java.awt.Dimension( 256, 256 )
+					"horizontalTextPosition": 0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0,alignx center,growx 0"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "insets 0,hidemode 3"
+					"$columnConstraints": "[fill][grow,fill]"
+					"$rowConstraints": "[grow,fill]"
+				} ) {
+					name: "userPanel"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "userLabel"
+						"text": "Usuario:"
+						"font": &Font0 new java.awt.Font( "Adwaita Sans", 0, 18 )
+						"maximumSize": new java.awt.Dimension( 130, 23 )
+						"minimumSize": new java.awt.Dimension( 130, 23 )
+						"preferredSize": new java.awt.Dimension( 130, 23 )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "userTextField"
+						"font": &Font1 new java.awt.Font( "Adwaita Sans", 0, 18 )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 1 0"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 1"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "insets 0,hidemode 3"
+					"$columnConstraints": "[fill][grow,fill]"
+					"$rowConstraints": "[grow,fill]"
+				} ) {
+					name: "passwordPanel"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "passwordLabel"
+						"text": "Contraseña:"
+						"font": #Font0
+						"maximumSize": new java.awt.Dimension( 130, 23 )
+						"minimumSize": new java.awt.Dimension( 130, 23 )
+						"preferredSize": new java.awt.Dimension( 130, 23 )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0"
+					} )
+					add( new FormComponent( "javax.swing.JPasswordField" ) {
+						name: "passwordTextField"
+						"font": #Font1
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 1 0"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 2"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "loginBtn"
+					"text": "Iniciar sesión"
+					"font": &Font2 new java.awt.Font( "Adwaita Sans", 0, 18 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "loginBtn", true ) )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 3,alignx trailing,growx 0"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "hidemode 3,aligny bottom"
+					"$columnConstraints": "[grow,fill]"
+					"$rowConstraints": "[][fill]para[]"
+				} ) {
+					name: "btnLoginPanel"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "noAccountLabel"
+						"text": "¿No tiene cuenta?"
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0,alignx center,growx 0"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "registerBtn"
+						"text": "Registrarse"
+						"font": #Font2
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "registerBtn", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 1,alignx center,growx 0"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "versionLabel"
+						"foreground": new java.awt.Color( 160, 160, 160, 255 )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 2,alignx center,growx 0"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 4"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "loginPanel"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "hidemode 3"
+				"$columnConstraints": "[grow,fill]"
+				"$rowConstraints": "[grow,fill][fill][fill]"
+			} ) {
+				name: "mainPanel"
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "chatScrollPane"
+					add( new FormComponent( "javax.swing.JTextArea" ) {
+						name: "chatTextArea"
+						"editable": false
+						"focusable": false
+						"font": new java.awt.Font( "Adwaita Mono", 0, 16 )
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "insets 0,hidemode 3"
+					"$columnConstraints": "[grow,fill][fill]"
+					"$rowConstraints": "[]"
+				} ) {
+					name: "clientPanel"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "clientLabel"
+						"text": "Cliente: $c"
+						"font": &Font3 new java.awt.Font( "Adwaita Sans", 0, 16 )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "logoutBtn"
+						"text": "Cerrar sesión"
+						"font": #Font3
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "logoutBtn", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 1 0"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "clientTextField"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "send", true ) )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 2"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "mainPanel"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 600 )
+		} )
+	}
+}

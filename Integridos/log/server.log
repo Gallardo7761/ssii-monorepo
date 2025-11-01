@@ -1,0 +1,46 @@
+2025-10-06 19:44:02 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:58622
+2025-10-06 19:44:02 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando LOGIN para alvgulveg
+2025-10-06 19:44:11 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:36988
+2025-10-06 19:44:11 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando SEND_TRANSACTION de alvgulveg a smt4497 | 50.0
+2025-10-06 19:44:13 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:36992
+2025-10-06 19:44:13 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando LOGOUT para 5b3532d0-d6ff-4845-8aa0-03a1d11a94b2
+2025-10-06 19:48:16 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:34878
+2025-10-06 19:48:16 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando LOGIN para noexiste
+2025-10-06 19:48:53 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:34066
+2025-10-06 19:48:53 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-06 19:49:13 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:44270
+2025-10-06 19:49:13 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando SEND_TRANSACTION de smt4497 a alvgulveg | 50.0
+2025-10-06 19:49:13 [main] DEBUG n.m.integridos.server.RemoteSocket - HMAC recibida: 7f00bda9f22b98fdfbd0f2c1b61b4d40cd0eca66a38efb1304adf3fd33599fe0
+2025-10-06 19:49:13 [main] DEBUG n.m.integridos.server.RemoteSocket - Mensaje JSON para calcular HMAC: {"action":"SEND_TRANSACTION","payload":{"fromUserName":"smt4497","toUserName":"alvgulveg","amount":50.0,"nonce":"x8Dsu3aNocd014/bH7lymw\u003d\u003d"}}
+2025-10-06 19:49:13 [main] DEBUG n.m.integridos.server.RemoteSocket - HMAC generada: 7f00bda9f22b98fdfbd0f2c1b61b4d40cd0eca66a38efb1304adf3fd33599fe0
+2025-10-06 19:49:13 [main] DEBUG n.m.integridos.server.RemoteSocket - Las HMAC coinciden
+2025-10-06 19:49:14 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:44274
+2025-10-06 19:49:14 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando LOGOUT para 06a85107-285d-4b10-a412-427e63afecfb
+2025-10-06 19:49:35 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:59576
+2025-10-06 19:49:35 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-06 19:57:25 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:55456
+2025-10-06 19:57:25 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando LOGIN para smt4497
+2025-10-06 19:57:31 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:41488
+2025-10-06 19:57:31 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando SEND_TRANSACTION de smt4497 a alvgulveg | -10.0
+2025-10-06 19:57:31 [main] DEBUG n.m.integridos.server.RemoteSocket - HMAC recibida: 25417b475e6cf28707e519bb6d49a1241d502de90ef5db3c2ab384fcabdb6bdf
+2025-10-06 19:57:31 [main] DEBUG n.m.integridos.server.RemoteSocket - Mensaje JSON para calcular HMAC: {"action":"SEND_TRANSACTION","payload":{"fromUserName":"smt4497","toUserName":"alvgulveg","amount":-10.0,"nonce":"Z5vRIKxPXsBBV6LKKZZITg\u003d\u003d"}}
+2025-10-06 19:57:31 [main] DEBUG n.m.integridos.server.RemoteSocket - HMAC generada: 25417b475e6cf28707e519bb6d49a1241d502de90ef5db3c2ab384fcabdb6bdf
+2025-10-06 19:57:31 [main] DEBUG n.m.integridos.server.RemoteSocket - Las HMAC coinciden
+2025-10-06 19:57:37 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:50254
+2025-10-06 19:57:37 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando SEND_TRANSACTION de smt4497 a alvgulveg | 1000.0
+2025-10-06 19:57:37 [main] DEBUG n.m.integridos.server.RemoteSocket - HMAC recibida: 2e2ac0a1df12e8127bdb046a932cee65187c872fbc536161d0b982037142fc76
+2025-10-06 19:57:37 [main] DEBUG n.m.integridos.server.RemoteSocket - Mensaje JSON para calcular HMAC: {"action":"SEND_TRANSACTION","payload":{"fromUserName":"smt4497","toUserName":"alvgulveg","amount":1000.0,"nonce":"3dOKgYJ9fKOV4IdU/94Arg\u003d\u003d"}}
+2025-10-06 19:57:37 [main] DEBUG n.m.integridos.server.RemoteSocket - HMAC generada: 2e2ac0a1df12e8127bdb046a932cee65187c872fbc536161d0b982037142fc76
+2025-10-06 19:57:37 [main] DEBUG n.m.integridos.server.RemoteSocket - Las HMAC coinciden
+2025-10-06 19:57:42 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:50270
+2025-10-06 19:57:42 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando SEND_TRANSACTION de smt4497 a noexiste | 10.0
+2025-10-06 19:57:42 [main] DEBUG n.m.integridos.server.RemoteSocket - HMAC recibida: dea4a26a0fee02ae093acff80eca84d6409918b58dcc0e1706f8c5bf77bdaa31
+2025-10-06 19:57:42 [main] DEBUG n.m.integridos.server.RemoteSocket - Mensaje JSON para calcular HMAC: {"action":"SEND_TRANSACTION","payload":{"fromUserName":"smt4497","toUserName":"noexiste","amount":10.0,"nonce":"ok94L3xsMJG/626yvUlyRQ\u003d\u003d"}}
+2025-10-06 19:57:42 [main] DEBUG n.m.integridos.server.RemoteSocket - HMAC generada: dea4a26a0fee02ae093acff80eca84d6409918b58dcc0e1706f8c5bf77bdaa31
+2025-10-06 19:57:42 [main] DEBUG n.m.integridos.server.RemoteSocket - Las HMAC coinciden
+2025-10-06 19:57:51 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:53674
+2025-10-06 19:57:51 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando LOGOUT para 06a85107-285d-4b10-a412-427e63afecfb
+2025-10-06 19:57:58 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:42006
+2025-10-06 19:57:58 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando LOGIN para alvgulveg
+2025-10-06 19:58:04 [main] INFO  n.m.integridos.server.RemoteSocket - Nueva conexión desde /127.0.0.1:42008
+2025-10-06 19:58:04 [main] INFO  n.m.integridos.server.RemoteSocket - Procesando LOGIN para noexiste
